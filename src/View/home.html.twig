@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="fr">
 <head>
@@ -9,7 +11,8 @@
 </head>
 
 <body>
-    <ul>{% for product in products %}
+    <h1>Hello {{ name }} !</h1>
+      <ul>{% for product in products %}
         <li>{{ product }}</li>
         {% endfor %}
     </ul>
